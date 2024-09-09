@@ -1,6 +1,6 @@
 k = input("how's the josh: ".lower())
 
-if input == "high":
+if k == "high":
  print('done')
 else:
  print('i don\'t care')
