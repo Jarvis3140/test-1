@@ -1,9 +1,11 @@
 def name():
-    x = input('enter your name: ')
-    m = x.split()
-    # print (m)
+    user_input = input('Enter your name: ')
+    m = user_input.split()
+    
+    # Printing the first and last name with capitalization
+    first_name = m[0].capitalize()
+    last_name = m[-1].capitalize()
 
-    print(m[0],m[-1])
-
+    print(first_name, last_name)
 
 name()
