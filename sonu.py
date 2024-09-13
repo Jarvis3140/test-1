@@ -1,8 +1,3 @@
-k = input("how's the josh: ".lower())
+import random  as rd
 
-if k == "high":
- print('done')
-else:
- print('i don\'t care')
- print('try again')
- print(k)
+user_pass = input('Enter pass: '.lower())
