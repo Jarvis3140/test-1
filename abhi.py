@@ -1,2 +1,1 @@
-hello
-manticore is bad
+print('bye world')
