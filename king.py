@@ -6,6 +6,12 @@ def name():
     first_name = m[0].capitalize()
     last_name = m[-1].capitalize()
 
-    print(first_name, last_name)
-
+    a =  (first_name, last_name)
+    # modified_name = (first_name.center(50), last_name.center(70))
+    # print(modified_name)
+    print(type(a))
+import this 
 name()
+
+
+   
